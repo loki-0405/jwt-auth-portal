@@ -1,0 +1,75 @@
+
+.home-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #e0e7ff, #ffffff);
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.home-title {
+  font-size: 2rem;
+  color: #4338ca; /* Indigo-700 */
+  font-weight: bold;
+}
+
+.logout-button {
+  background-color: #ef4444; /* Red-500 */
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #dc2626; /* Red-600 */
+}
+
+.section {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  color: #1f2937; /* Gray-800 */
+  margin-bottom: 1rem;
+}
+
+.section p {
+  color: #4b5563; /* Gray-600 */
+  line-height: 1.6;
+}
+
+.projects ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.projects li {
+  border-left: 4px solid #6366f1; /* Indigo-500 */
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.projects h3 {
+  font-size: 1.125rem;
+  color: #4338ca;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.projects p {
+  color: #4b5563;
+}
